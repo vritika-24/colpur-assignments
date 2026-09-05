@@ -1,0 +1,44 @@
+/* 1. CLASS SELECTOR */
+.product {
+    background-color: lightgray;
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+/* 2. ID SELECTOR */
+title {
+    color: blue;
+    text-align: center;
+}
+
+
+/* 3. DESCENDANT SELECTOR */
+/* Selects all p elements inside .product */
+p {
+    color: gray;
+}
+
+
+/* 4. CHILD SELECTOR */
+/* Selects h2 which is a direct child of .product */
+h2 {
+    color: red;
+}
+
+
+/* 5. ADJACENT SIBLING SELECTOR */
+/* Selects h3 immediately after h2 */
+h2 + h3 {
+    color: green;
+}
+
+
+/* 6. GENERAL SIBLING SELECTOR */
+/* Selects all p elements after h3 */
+h3 ~ p {
+    font-size: 16px;
+    color: purple;
+}
