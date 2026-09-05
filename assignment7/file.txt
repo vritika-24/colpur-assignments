@@ -1,0 +1,5 @@
+topics covered in Today's class:
+ 1) how to create / edit a file using python
+ 2) What is CSV file
+ 3) How to create / edit a Csv file using python
+ 3) Use of os.path Module to check id=f a file exit or not
